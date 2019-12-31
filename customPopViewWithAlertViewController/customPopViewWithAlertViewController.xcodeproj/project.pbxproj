@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		904B733B2122C3080040615C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 904B733A2122C3080040615C /* AppDelegate.m */; };
+		904B733E2122C3080040615C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 904B733D2122C3080040615C /* ViewController.m */; };
+		904B73412122C3080040615C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904B733F2122C3080040615C /* Main.storyboard */; };
+		904B73432122C3080040615C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904B73422122C3080040615C /* Assets.xcassets */; };
+		904B73462122C3080040615C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904B73442122C3080040615C /* LaunchScreen.storyboard */; };
+		904B73492122C3080040615C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 904B73482122C3080040615C /* main.m */; };
+		904B73532122C3080040615C /* customPopViewWithAlertViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 904B73522122C3080040615C /* customPopViewWithAlertViewControllerTests.m */; };
+		904B735E2122C3080040615C /* customPopViewWithAlertViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 904B735D2122C3080040615C /* customPopViewWithAlertViewControllerUITests.m */; };
+		904B736D2122C3D50040615C /* CustomPopVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 904B736C2122C3D50040615C /* CustomPopVIewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		904B734F2122C3080040615C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 904B732E2122C3080040615C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904B73352122C3080040615C;
+			remoteInfo = customPopViewWithAlertViewController;
+		};
+		904B735A2122C3080040615C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 904B732E2122C3080040615C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904B73352122C3080040615C;
+			remoteInfo = customPopViewWithAlertViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		904B73362122C3080040615C /* customPopViewWithAlertViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customPopViewWithAlertViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		904B73392122C3080040615C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		904B733A2122C3080040615C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		904B733C2122C3080040615C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		904B733D2122C3080040615C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		904B73402122C3080040615C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		904B73422122C3080040615C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		904B73452122C3080040615C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		904B73472122C3080040615C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904B73482122C3080040615C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		904B734E2122C3080040615C /* customPopViewWithAlertViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customPopViewWithAlertViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		904B73522122C3080040615C /* customPopViewWithAlertViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customPopViewWithAlertViewControllerTests.m; sourceTree = "<group>"; };
+		904B73542122C3080040615C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904B73592122C3080040615C /* customPopViewWithAlertViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customPopViewWithAlertViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		904B735D2122C3080040615C /* customPopViewWithAlertViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customPopViewWithAlertViewControllerUITests.m; sourceTree = "<group>"; };
+		904B735F2122C3080040615C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904B736B2122C3D50040615C /* CustomPopVIewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomPopVIewController.h; sourceTree = "<group>"; };
+		904B736C2122C3D50040615C /* CustomPopVIewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPopVIewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		904B73332122C3080040615C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904B734B2122C3080040615C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904B73562122C3080040615C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		904B732D2122C3080040615C = {
+			isa = PBXGroup;
+			children = (
+				904B73382122C3080040615C /* customPopViewWithAlertViewController */,
+				904B73512122C3080040615C /* customPopViewWithAlertViewControllerTests */,
+				904B735C2122C3080040615C /* customPopViewWithAlertViewControllerUITests */,
+				904B73372122C3080040615C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		904B73372122C3080040615C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				904B73362122C3080040615C /* customPopViewWithAlertViewController.app */,
+				904B734E2122C3080040615C /* customPopViewWithAlertViewControllerTests.xctest */,
+				904B73592122C3080040615C /* customPopViewWithAlertViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		904B73382122C3080040615C /* customPopViewWithAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				904B73392122C3080040615C /* AppDelegate.h */,
+				904B733A2122C3080040615C /* AppDelegate.m */,
+				904B733C2122C3080040615C /* ViewController.h */,
+				904B733D2122C3080040615C /* ViewController.m */,
+				904B736B2122C3D50040615C /* CustomPopVIewController.h */,
+				904B736C2122C3D50040615C /* CustomPopVIewController.m */,
+				904B733F2122C3080040615C /* Main.storyboard */,
+				904B73422122C3080040615C /* Assets.xcassets */,
+				904B73442122C3080040615C /* LaunchScreen.storyboard */,
+				904B73472122C3080040615C /* Info.plist */,
+				904B73482122C3080040615C /* main.m */,
+			);
+			path = customPopViewWithAlertViewController;
+			sourceTree = "<group>";
+		};
+		904B73512122C3080040615C /* customPopViewWithAlertViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				904B73522122C3080040615C /* customPopViewWithAlertViewControllerTests.m */,
+				904B73542122C3080040615C /* Info.plist */,
+			);
+			path = customPopViewWithAlertViewControllerTests;
+			sourceTree = "<group>";
+		};
+		904B735C2122C3080040615C /* customPopViewWithAlertViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				904B735D2122C3080040615C /* customPopViewWithAlertViewControllerUITests.m */,
+				904B735F2122C3080040615C /* Info.plist */,
+			);
+			path = customPopViewWithAlertViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		904B73352122C3080040615C /* customPopViewWithAlertViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904B73622122C3080040615C /* Build configuration list for PBXNativeTarget "customPopViewWithAlertViewController" */;
+			buildPhases = (
+				904B73322122C3080040615C /* Sources */,
+				904B73332122C3080040615C /* Frameworks */,
+				904B73342122C3080040615C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = customPopViewWithAlertViewController;
+			productName = customPopViewWithAlertViewController;
+			productReference = 904B73362122C3080040615C /* customPopViewWithAlertViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		904B734D2122C3080040615C /* customPopViewWithAlertViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904B73652122C3080040615C /* Build configuration list for PBXNativeTarget "customPopViewWithAlertViewControllerTests" */;
+			buildPhases = (
+				904B734A2122C3080040615C /* Sources */,
+				904B734B2122C3080040615C /* Frameworks */,
+				904B734C2122C3080040615C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				904B73502122C3080040615C /* PBXTargetDependency */,
+			);
+			name = customPopViewWithAlertViewControllerTests;
+			productName = customPopViewWithAlertViewControllerTests;
+			productReference = 904B734E2122C3080040615C /* customPopViewWithAlertViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		904B73582122C3080040615C /* customPopViewWithAlertViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904B73682122C3080040615C /* Build configuration list for PBXNativeTarget "customPopViewWithAlertViewControllerUITests" */;
+			buildPhases = (
+				904B73552122C3080040615C /* Sources */,
+				904B73562122C3080040615C /* Frameworks */,
+				904B73572122C3080040615C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				904B735B2122C3080040615C /* PBXTargetDependency */,
+			);
+			name = customPopViewWithAlertViewControllerUITests;
+			productName = customPopViewWithAlertViewControllerUITests;
+			productReference = 904B73592122C3080040615C /* customPopViewWithAlertViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		904B732E2122C3080040615C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Primb;
+				TargetAttributes = {
+					904B73352122C3080040615C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					904B734D2122C3080040615C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 904B73352122C3080040615C;
+					};
+					904B73582122C3080040615C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 904B73352122C3080040615C;
+					};
+				};
+			};
+			buildConfigurationList = 904B73312122C3080040615C /* Build configuration list for PBXProject "customPopViewWithAlertViewController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 904B732D2122C3080040615C;
+			productRefGroup = 904B73372122C3080040615C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				904B73352122C3080040615C /* customPopViewWithAlertViewController */,
+				904B734D2122C3080040615C /* customPopViewWithAlertViewControllerTests */,
+				904B73582122C3080040615C /* customPopViewWithAlertViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		904B73342122C3080040615C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904B73462122C3080040615C /* LaunchScreen.storyboard in Resources */,
+				904B73432122C3080040615C /* Assets.xcassets in Resources */,
+				904B73412122C3080040615C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904B734C2122C3080040615C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904B73572122C3080040615C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		904B73322122C3080040615C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904B733E2122C3080040615C /* ViewController.m in Sources */,
+				904B736D2122C3D50040615C /* CustomPopVIewController.m in Sources */,
+				904B73492122C3080040615C /* main.m in Sources */,
+				904B733B2122C3080040615C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904B734A2122C3080040615C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904B73532122C3080040615C /* customPopViewWithAlertViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904B73552122C3080040615C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904B735E2122C3080040615C /* customPopViewWithAlertViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		904B73502122C3080040615C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 904B73352122C3080040615C /* customPopViewWithAlertViewController */;
+			targetProxy = 904B734F2122C3080040615C /* PBXContainerItemProxy */;
+		};
+		904B735B2122C3080040615C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 904B73352122C3080040615C /* customPopViewWithAlertViewController */;
+			targetProxy = 904B735A2122C3080040615C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		904B733F2122C3080040615C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904B73402122C3080040615C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		904B73442122C3080040615C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904B73452122C3080040615C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		904B73602122C3080040615C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		904B73612122C3080040615C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		904B73632122C3080040615C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7WPCZ2UFH;
+				INFOPLIST_FILE = customPopViewWithAlertViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PrimbMobile.customPopViewWithAlertViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		904B73642122C3080040615C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7WPCZ2UFH;
+				INFOPLIST_FILE = customPopViewWithAlertViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PrimbMobile.customPopViewWithAlertViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		904B73662122C3080040615C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7WPCZ2UFH;
+				INFOPLIST_FILE = customPopViewWithAlertViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PrimbMobile.customPopViewWithAlertViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/customPopViewWithAlertViewController.app/customPopViewWithAlertViewController";
+			};
+			name = Debug;
+		};
+		904B73672122C3080040615C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7WPCZ2UFH;
+				INFOPLIST_FILE = customPopViewWithAlertViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PrimbMobile.customPopViewWithAlertViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/customPopViewWithAlertViewController.app/customPopViewWithAlertViewController";
+			};
+			name = Release;
+		};
+		904B73692122C3080040615C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7WPCZ2UFH;
+				INFOPLIST_FILE = customPopViewWithAlertViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PrimbMobile.customPopViewWithAlertViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = customPopViewWithAlertViewController;
+			};
+			name = Debug;
+		};
+		904B736A2122C3080040615C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7WPCZ2UFH;
+				INFOPLIST_FILE = customPopViewWithAlertViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PrimbMobile.customPopViewWithAlertViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = customPopViewWithAlertViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		904B73312122C3080040615C /* Build configuration list for PBXProject "customPopViewWithAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904B73602122C3080040615C /* Debug */,
+				904B73612122C3080040615C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904B73622122C3080040615C /* Build configuration list for PBXNativeTarget "customPopViewWithAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904B73632122C3080040615C /* Debug */,
+				904B73642122C3080040615C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904B73652122C3080040615C /* Build configuration list for PBXNativeTarget "customPopViewWithAlertViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904B73662122C3080040615C /* Debug */,
+				904B73672122C3080040615C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904B73682122C3080040615C /* Build configuration list for PBXNativeTarget "customPopViewWithAlertViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904B73692122C3080040615C /* Debug */,
+				904B736A2122C3080040615C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 904B732E2122C3080040615C /* Project object */;
+}

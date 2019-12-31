@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IconArr</key>
+	<array>
+		<string>😲</string>
+		<string>😄</string>
+		<string>😓</string>
+		<string>😱</string>
+		<string>😡</string>
+		<string>😭</string>
+		<string>😪</string>
+	</array>
+	<key>NameArr</key>
+	<array>
+		<string>周润发</string>
+		<string>刘德华</string>
+		<string>赵传</string>
+		<string>那英</string>
+		<string>汪峰</string>
+		<string>周杰伦</string>
+	</array>
+</dict>
+</plist>

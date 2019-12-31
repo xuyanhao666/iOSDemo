@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xib" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYf-p6-MZ2">
+                        <rect key="frame" x="23" y="14" width="22.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TNw-Aq-ThG">
+                        <rect key="frame" x="332" y="10" width="30" height="30"/>
+                        <state key="normal" title="点击"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="TNw-Aq-ThG" secondAttribute="bottom" constant="1.5" id="8aF-aS-sTO"/>
+                    <constraint firstItem="FYf-p6-MZ2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="6" id="Il7-Zy-oAr"/>
+                    <constraint firstItem="FYf-p6-MZ2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="15" id="XLP-aH-ssp"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="TNw-Aq-ThG" secondAttribute="trailing" constant="5" id="eqn-sh-nQ9"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="FYf-p6-MZ2" secondAttribute="bottom" constant="6.5" id="l8R-6a-Nsz"/>
+                    <constraint firstItem="TNw-Aq-ThG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="wzz-g4-s2G"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="m_btn" destination="TNw-Aq-ThG" id="POB-MI-Rw8"/>
+                <outlet property="m_labelText" destination="FYf-p6-MZ2" id="s93-Q4-uHD"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
